@@ -85,6 +85,34 @@ h1{
 .recipies-item img {
     width: 100%;
 }
-.counter-area{
+.counter-area {
     display: flex;
+    max-width: 1290px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 30px 35px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 200px;
+    color: darkgrey;
+}
+.footer span{
+    color: orangered;
+
+}
+.footer h3{
+    color: gray;
+    text-align: center;
+}
+.footer p{
+    text-align: center;
+    padding: 5px;
+    margin-top: 3px;
 }
